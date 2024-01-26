@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <!-- ヘッダーを作成 -->
+  <div class="h-14 shadow flex justify-center items-center">
+    <p class="text-2xl">
+      TODOリスト
+    </p>
   </div>
 </template>
 

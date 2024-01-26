@@ -1,7 +1,7 @@
 <template>
   <div>
-    <TodoInputBox />
-    <TodoList />
+    <TodoInputBox :addTask="addTask" :task="task" @input="updateTask" class="m-14" />
+    <TodoList class="mx-16" :tasks="tasks" />
   </div>
 </template>
 
@@ -14,7 +14,22 @@ export default Vue.extend({
   components: {
     TodoInputBox,
     TodoList
+  },
+  data() {
+    return {
+      task: "",
+      tasks: []
+    }
+  },
+  methods: {
+    addTask(task: string) {
+      this.tasks.push(this.task)
+      this.task = ""
+      console.log(this.tasks)
+    },
+    updateTask(task) {
+      this.task = task
+    },
   }
-
 })
 </script>

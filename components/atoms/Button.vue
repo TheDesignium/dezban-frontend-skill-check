@@ -1,12 +1,21 @@
 <template>
   <div>
-    <!-- ここにaddボタンを作成 -->
+    <button @click="onClick()" class="h-10 w-20 border rounded">{{text}}</button>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-
+  props: {
+    text: {
+      type: String,
+      default: ""
+    },
+    onClick: {
+      type: Function,
+      default: () => {}
+    }
+  }
 })
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <TodoInput />
-    <Button />
+  <div class="flex flex-row">
+    <TodoInput @input="updateTask" :task="task" />
+    <Button text="add" class="ml-4" :onClick="addTask" />
   </div>
 </template>
 
@@ -14,6 +14,12 @@ export default Vue.extend({
   components: {
     TodoInput,
     Button
+  },
+  props: ["addTask", "task"],
+  methods: {
+    updateTask(task) {
+      this.$emit("input", task)
+    }
   }
 })
 </script>
