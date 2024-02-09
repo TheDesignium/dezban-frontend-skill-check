@@ -2,7 +2,7 @@
 ## 概要
 Nuxt.jsとTypeScriptを用いてでTODOアプリを実装する。
 
-![Alt text](image.png)
+![Alt text](./static/image.png)
 
 ## 機能一覧
 - ヘッダー
@@ -56,7 +56,7 @@ PRには動作が確認できるような動画を添付してください
 https://github.com/TheDesignium/dezban/wiki/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89
 
 ## vscodeの推奨拡張機能
-![alt text](<スクリーンショット 2024-02-09 19.25.41.png>)
+![alt text](<./static/スクリーンショット 2024-02-09 19.25.41.png>)
 こちらから追加することができます。
 - Vetur
 - ESlint
