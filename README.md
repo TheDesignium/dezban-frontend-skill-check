@@ -57,6 +57,7 @@ https://github.com/TheDesignium/dezban/wiki/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89
 
 ## vscodeの推奨拡張機能
 ![alt text](<./static/スクリーンショット 2024-02-09 19.25.41.png>)
+
 こちらから追加することができます。
 - Vetur
 - ESlint
