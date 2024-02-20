@@ -12,6 +12,9 @@
     "lint": "yarn lint:js && yarn lint:prettier",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
+  "engines": {
+    "node": ">=12 <17"
+  },
   "dependencies": {
     "core-js": "^3.25.3",
     "nuxt": "^2.15.8",
