@@ -32,7 +32,7 @@ Nuxt.jsとTypeScriptを用いてでTODOアプリを実装する。
 
 ## 実行手順
 ### 1.環境構築をする
-- [こちら](#環境構築)から行ってください
+- [こちら](#環境構築)を参考に行ってください
 ### 2.作業ブランチを作成
 branch名は`feature/github名/年月/todo-list`としてください。
 ```
@@ -63,3 +63,15 @@ https://github.com/TheDesignium/dezban/wiki/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89
 - ESlint
 - Prettier - Code formatter
 - Tailwind CSS IntelliSense
+
+## 想定されるエラー
+
+### nuxt not found
+
+package.jsonを確認(github上と同じであることを確認)
+
+githubと違う内容であれば`git pull origin main`を実行
+
+再度`yarn`を実行
+
+`yarn dev`を実行
