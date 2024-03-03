@@ -1,6 +1,6 @@
 <template>
   <div>
-      <TodoButton />
+    <TodoButton />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import TodoButton from '../components/TodoButton.vue'
 export default Vue.extend({
   name: 'IndexPage',
   components: {
-    TodoButton
-  }
+    TodoButton,
+  },
 })
 </script>
