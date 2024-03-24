@@ -23,7 +23,7 @@ Nuxt.jsとTypeScriptを用いてでTODOアプリを実装する。
 - UIに関しては自由です
 - コミットの粒度やコミットメッセージはチーム開発を意識したものにしてください。
 - PC/スマートフォンの両方でデザインが崩れないようにしてください(検証ツールにて確認)
-- 技術的な面でわからないものがあれば[こちら]([https://github.com/TheDesignium/dezban/wiki/%E3%83%81%E3%83%A5%E3%83%BC%E3%83%88%E3%83%AA%E3%82%A2%E3%83%AB](https://github.com/TheDesignium/dezban-frontend-skill-check/wiki/%E5%8F%82%E8%80%83%E8%A8%98%E4%BA%8B))に目を通してみてください。
+- 技術的な面でわからないものがあれば[こちら](https://github.com/TheDesignium/dezban-frontend-skill-check/wiki/%E5%8F%82%E8%80%83%E8%A8%98%E4%BA%8B)に目を通してみてください。
 
 ## 技術スタック
 - フレームワーク: Nuxt.js 2系
