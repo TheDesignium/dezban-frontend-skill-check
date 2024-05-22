@@ -5,14 +5,18 @@
       <p>TODOリスト</p>
     </div>
 
-    <form @submit.prevent="addTodo"> 
-      
-      <input v-model="newTodo" required placeholder="input new todo " class="width: w-96;"/> 
-      <TodoButton title="add" :click-action="addTodo"></TodoButton>  
+    <form @submit.prevent="addTodo">
+      <input 
+        v-model="newTodo" 
+        required
+        placeholder="input new todo "
+        class="w-11/12"
+      />
+      <TodoButton title="add" :click-action="addTodo"></TodoButton>
     </form>
-  
-    <div class="list-disc ">
-      <li v-for="todo in todos" :key="todo.id" >
+
+    <div class="list-disc">
+      <li v-for="todo in todos" :key="todo.id">
         {{ todo.text }}
         <TodoButton title="delete" :click-action="removeTodo" :todo="todo" />
       </li>
