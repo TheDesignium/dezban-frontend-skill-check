@@ -10,7 +10,7 @@
         v-model="newTodo" 
         required
         placeholder="input new todo" 
-        class="w-5/6 m-3 border-2 "
+        class="w-5/6 m-3 border-b-2  border-4 border-green-500"
       />
       <TodoButton title="add" :click-action="addTodo"></TodoButton>
     </form>
