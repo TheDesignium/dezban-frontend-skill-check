@@ -1,5 +1,5 @@
 <template>
-  <button class="text-red-700  border-4  border-red-500 " @click="clickAction(todo)">
+  <button class=" text-red-700  border-4  border-blue-300 rounded bg-blue-300 " @click="clickAction(todo)">
     {{ title }}
   </button>
 </template>
