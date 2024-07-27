@@ -14,10 +14,12 @@ jobs:
       with:
         node-version: '12'
         registry-url: 'https://registry.npmjs.org'
+    - name: Node Version
+      run: nvm use v18.0.0
     - name: Install Dependencies
-      run: npm install
+      run: yarn
     - name: Build
-      run: npm run build
+      run: yarn build
     - name: deploy to Firebase Hosting
       shell: bash
-      run:  npm run channel-deploy $(echo ${GITHUB_REF#refs/heads/}) --token=${{ secrets.FIREBASE_TOKEN }}
+      run: yarn channel-deploy $(echo ${GITHUB_REF#refs/heads/}) --token=${{ secrets.FIREBASE_TOKEN }}
