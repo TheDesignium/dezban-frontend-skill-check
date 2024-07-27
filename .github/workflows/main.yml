@@ -14,8 +14,6 @@ jobs:
       with:
         node-version: '12'
         registry-url: 'https://registry.npmjs.org'
-    - name: Node Version
-      run: nvm use v18.0.0
     - name: Install Dependencies
       run: yarn
     - name: Build
