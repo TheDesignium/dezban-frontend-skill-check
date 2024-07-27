@@ -15,9 +15,9 @@ jobs:
         node-version: '12'
         registry-url: 'https://registry.npmjs.org'
     - name: Install Dependencies
-      run: yarn
+      run: npm install
     - name: Build
-      run: yarn build
+      run: npm run build
     - name: deploy to Firebase Hosting
       shell: bash
-      run:  yarn channel-deploy $(echo ${GITHUB_REF#refs/heads/}) --token=${{ secrets.FIREBASE_TOKEN }}
+      run:  npm run channel-deploy $(echo ${GITHUB_REF#refs/heads/}) --token=${{ secrets.FIREBASE_TOKEN }}
