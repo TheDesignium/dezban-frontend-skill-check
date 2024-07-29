@@ -10,7 +10,15 @@
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:js && yarn lint:prettier",
+<<<<<<< HEAD
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
+=======
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
+    "channel-deploy": "firebase hosting:channel:deploy"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+>>>>>>> da9048b55354194126da0a249b1d70b56a4c5d98
   },
   "dependencies": {
     "core-js": "^3.25.3",
@@ -30,7 +38,14 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
+<<<<<<< HEAD
     "postcss": "^8.4.17",
     "prettier": "^2.7.1"
   }
 }
+=======
+    "postcss": "^8.4.40",
+    "prettier": "^2.7.1"
+  }
+}
+>>>>>>> da9048b55354194126da0a249b1d70b56a4c5d98
