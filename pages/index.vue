@@ -16,7 +16,7 @@
 
     <ul class="list-disc m-3">
       <li v-for="todo in todos" :key="todo.id" class="flex items-center">
-        <span>・ {{ todo.text }}</span>
+        <span>typo {{ todo.text }}</span>
         <TodoButton title="delete" :click-action="removeTodo" :todo="todo" />
       </li>
     </ul>
