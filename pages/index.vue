@@ -36,8 +36,7 @@ export default {
       id: 0,
       newTodo: '',
       todos: [
-        // { id: this.id++, text: ' hoge ' },
-        // { id: this.id++, text: ' huga ' },
+        
       ],
     }
   },
