@@ -2,7 +2,7 @@
   <div>
     <v-spacer />
     <div class="flex justify-center items-center text-3xl">
-      <p>TODOリスト</p>
+      <p> TODOリスト </p>
     </div>
 
     <form class="flex items-center" @submit.prevent="addTodo">
@@ -16,7 +16,7 @@
 
     <ul class="list-disc m-3">
       <li v-for="todo in todos" :key="todo.id" class="flex items-center">
-        <span>typo {{ todo.text }}</span>
+        <span>・ {{ todo.text }}</span>
         <TodoButton title="delete" :click-action="removeTodo" :todo="todo" />
       </li>
     </ul>
