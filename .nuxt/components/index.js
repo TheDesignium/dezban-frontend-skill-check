@@ -1,4 +1,4 @@
-export { default as TodoButton } from '../../components/TodoButton.vue'
+export { default as TodoButton } from '../..\\components\\TodoButton.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
